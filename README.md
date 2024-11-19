@@ -55,6 +55,10 @@ pip install -r requirements.txt
 ```
 ├── data/
 │   ├── *.csv                    # Original competition data
+├── models/
+│   ├── bet_model.pth            # best model weights
+├── metrics/
+│   ├── eval_metrics.csv         # best model training and val losses
 ├── nfl-bdb1dcnn.ipynb           # Jupyter notebook
 ├── requirements.txt
 └── README.md
