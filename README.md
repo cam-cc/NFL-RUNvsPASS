@@ -1,4 +1,7 @@
-# NFL Big Data Bowl 2025 - Pre-snap Analysis with 1D CNN
+# NFL Big Data Bowl 2025 - Pre-snap Analysis with 2D CNN 🏈🏆
+
+
+https://www.kaggle.com/competitions/nfl-big-data-bowl-2025/overview
 
 ## Overview
 This repository contains a 1D Convolutional Neural Network (CNN) implementation for analyzing NFL pre-snap player tracking data as part of the NFL Big Data Bowl 2025 competition. The model aims to identify patterns in pre-snap movements and formations to predict post-snap outcomes.
@@ -13,7 +16,7 @@ The dataset includes player tracking data from the NFL Next Gen Stats team and a
 - Game and play information
 - Player metadata
 - Pre-snap events and formations
-- Post-snap outcomes
+- Post-snap outcomes ( not needed )
 
 ### Key Features
 - Player position coordinates (x, y)
@@ -24,8 +27,8 @@ The dataset includes player tracking data from the NFL Next Gen Stats team and a
 
 ## Model Architecture
 
-### 1D CNN Overview
-The model processes temporal sequences of pre-snap player movements using:
+### 2D CNN Overview
+
 - TBD
 
 ### Input Processing
