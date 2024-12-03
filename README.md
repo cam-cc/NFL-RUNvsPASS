@@ -64,7 +64,7 @@ pip install -r requirements.txt
 │   ├── bet_model.pth            # best model weights
 ├── metrics/
 │   ├── eval_metrics.csv         # best model training and val losses
-├── nfl-bdb1dcnn.ipynb           # Jupyter notebook
+├── nfl-runvspass.ipynb           # Jupyter notebook
 ├── requirements.txt
 └── README.md
 ```
