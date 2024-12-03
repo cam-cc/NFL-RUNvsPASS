@@ -29,11 +29,13 @@ The dataset includes player tracking data from the NFL Next Gen Stats team and a
 
 ### 2D CNN Overview
 
-- TBD
+The model employs a hybrid architecture that combines neural network components with convolutional processing. It processes input features through two parallel paths:
 
-### Input Processing
-- TBD
-- 
+1. A feature group pathway that uses dense layers with batch normalization and dropout
+2. A convolutional pathway that processes the reshaped input through 2D convolutions
+
+The use of parallel processing paths is because some features are more meaningful when processed together. The goal of this hybrid approach is for the CNN pathway to capture formation-based patterns and the dense feature pathway can process situational features (down, distance, tendencies) This combination allows the model to weigh both structural and situational factors in its predictions
+
 ## Setup
 
 ### Requirements
